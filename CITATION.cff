@@ -1,10 +1,11 @@
-cff-version: 1.2.0
+﻿cff-version: 1.2.0
 message: "If you use this result or these tools, please cite them as below."
 title: "Moki&Julio: No symmetric 12-face Szilassi polyhedron - a computer-assisted proof with DRAT certificates"
 authors:
   - name: "Moki&Julio"
 date-released: 2026-09-27
 version: "1.0"
+doi: 10.5281/zenodo.23003257
 repository-code: "https://github.com/Hashirama1337s/szilassi-12"
 license: CC-BY-4.0
 keywords:

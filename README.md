@@ -1,6 +1,8 @@
-# No symmetric 12-face Szilassi polyhedron
+﻿# No symmetric 12-face Szilassi polyhedron
 
 **A computer-assisted theorem with checkable proof certificates (Moki&Julio, 2026).**
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23003257.svg)](https://doi.org/10.5281/zenodo.23003257) DOI 10.5281/zenodo.23003257 (all versions; v1.0: 10.5281/zenodo.23003258)
 
 Only two polyhedra are known in which every two faces share an edge: the tetrahedron (4 faces) and Szilassi's
 polyhedron (7 faces, genus 1, 1977). The next possible case has 12 faces. It would be a polyhedron of genus 6 whose
