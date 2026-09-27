@@ -1,0 +1,17 @@
+=== Sun Sep 27 04:48:39 2026 15 cmds 1800.0s x6
+sym #54  T    |G|=12 UNSAT  vars 21836 clauses 510313 build 1.7s solve 7.3s
+sym #3   D3    |G|= 6 UNSAT  vars 21836 clauses 501733 build 1.8s solve 32.5s
+sym #48  D3    |G|= 6 UNSAT  vars 21836 clauses 501733 build 1.7s solve 41.0s
+sym #59  D2    |G|= 4 UNSAT  vars 21836 clauses 498873 build 1.7s solve 104.9s
+sym #54  D2    |G|= 4 UNSAT  vars 21836 clauses 498873 build 1.7s solve 110.1s
+sym #5   S4    |G|= 4 UNSAT  vars 21836 clauses 498873 build 1.8s solve 147.8s
+sym #23  S4    |G|= 4 UNSAT  vars 21836 clauses 498873 build 1.6s solve 131.3s
+sym #6   S4    |G|= 4 UNSAT  vars 21836 clauses 498873 build 1.7s solve 165.3s
+sym #41  S4    |G|= 4 UNSAT  vars 21836 clauses 498873 build 1.6s solve 151.3s
+sym #57  S4    |G|= 4 UNSAT  vars 21836 clauses 498873 build 1.6s solve 98.7s
+sym #58  S4    |G|= 4 UNSAT  vars 21836 clauses 498873 build 1.7s solve 122.2s
+sym #45  C3    |G|= 3 UNSAT  vars 21836 clauses 497443 build 1.3s solve 952.4s
+sym #54  C3    |G|= 3 UNSAT  vars 21836 clauses 497443 build 1.3s solve 1176.4s
+sym #48  C3    |G|= 3 UNSAT  vars 21836 clauses 497443 build 1.3s solve 1242.9s
+sym #3   C3    |G|= 3 UNSAT  vars 21836 clauses 497443 build 1.4s solve 1509.6s
+DONE

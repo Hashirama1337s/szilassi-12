@@ -1,0 +1,12 @@
+#54 T: chi orbits 66, vars 5246, clauses 48389, trivial contradiction False
+#3 D3: chi orbits 128, vars 8267, clauses 94269, trivial contradiction False
+#48 D3: chi orbits 128, vars 8345, clauses 94599, trivial contradiction False
+#59 D2: chi orbits 190, vars 10546, clauses 137044, trivial contradiction False
+#5 S4: chi orbits 184, vars 10405, clauses 138776, trivial contradiction False
+#45 C3: chi orbits 241, vars 12348, clauses 179873, trivial contradiction False
+RESULT #54 T: UNSAT in 0.3 s
+RESULT #3 D3: UNSAT in 117.7 s
+RESULT #48 D3: UNSAT in 118.5 s
+RESULT #59 D2: UNSAT in 539.6 s
+RESULT #5 S4: UNSAT in 703.6 s
+RESULT #45 C3: TIMEOUT after 2401 s

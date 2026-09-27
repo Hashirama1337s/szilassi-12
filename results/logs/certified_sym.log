@@ -1,0 +1,16 @@
+Sun Sep 27 05:42:43 2026 #54 T: UNSAT solve 7s proof 0 MB drat-trim 3s VERIFIED cnf dual_54_T.cnf sha256 585ac01b652ea780
+Sun Sep 27 05:43:38 2026 #3 D3: UNSAT solve 26s proof 35 MB drat-trim 21s VERIFIED cnf dual_3_D3.cnf sha256 806e1fd35f49bdc6
+Sun Sep 27 05:44:38 2026 #48 D3: UNSAT solve 31s proof 35 MB drat-trim 22s VERIFIED cnf dual_48_D3.cnf sha256 e420caf9c2a99df6
+Sun Sep 27 05:48:23 2026 #54 D2: UNSAT solve 138s proof 46 MB drat-trim 79s VERIFIED cnf dual_54_D2.cnf sha256 7d93e0c5cb652e21
+Sun Sep 27 05:52:07 2026 #59 D2: UNSAT solve 134s proof 45 MB drat-trim 84s VERIFIED cnf dual_59_D2.cnf sha256 7a94eb16e22c2990
+Sun Sep 27 05:57:07 2026 #5 S4: UNSAT solve 186s proof 52 MB drat-trim 106s VERIFIED cnf dual_5_S4.cnf sha256 06750255d8446ee9
+Sun Sep 27 06:05:07 2026 #6 S4: UNSAT solve 273s proof 68 MB drat-trim 202s VERIFIED cnf dual_6_S4.cnf sha256 846f9ef276927bcf
+Sun Sep 27 06:11:08 2026 #23 S4: UNSAT solve 222s proof 49 MB drat-trim 131s VERIFIED cnf dual_23_S4.cnf sha256 60a9c9ff90f5c9be
+Sun Sep 27 06:17:53 2026 #41 S4: UNSAT solve 244s proof 52 MB drat-trim 154s VERIFIED cnf dual_41_S4.cnf sha256 1ab40e144a265d3d
+Sun Sep 27 06:23:33 2026 #57 S4: UNSAT solve 206s proof 46 MB drat-trim 127s VERIFIED cnf dual_57_S4.cnf sha256 cee97f8da242948c
+Sun Sep 27 06:31:17 2026 #58 S4: UNSAT solve 281s proof 53 MB drat-trim 175s VERIFIED cnf dual_58_S4.cnf sha256 af65821a1f8b4035
+Sun Sep 27 06:36:27 2026 #45 C3: UNSAT solve 176s proof 50 MB drat-trim 91s VERIFIED cnf dual_45_C3_orbfix.cnf sha256 5ecbaab71924ed30
+Sun Sep 27 06:42:38 2026 #54 C3: UNSAT solve 236s proof 64 MB drat-trim 128s VERIFIED cnf dual_54_C3_orbfix.cnf sha256 f19f32b3d3954e37
+Sun Sep 27 06:49:15 2026 #3 C3: UNSAT solve 255s proof 54 MB drat-trim 135s VERIFIED cnf dual_3_C3_orbfix.cnf sha256 a579314c6cb139b0
+Sun Sep 27 06:53:47 2026 #48 C3: UNSAT solve 170s proof 47 MB drat-trim 94s VERIFIED cnf dual_48_C3_orbfix.cnf sha256 d32a4eea37336c2f
+DONE

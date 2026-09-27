@@ -1,0 +1,25 @@
+{
+  "title": "Moki&Julio: No symmetric 12-face Szilassi polyhedron - a computer-assisted proof with DRAT certificates",
+  "upload_type": "software",
+  "description": "<p>Szilassi's polyhedron (7 faces) and the tetrahedron are the only known polyhedra in which every two faces share an edge. The next possible case has 12 faces (genus 6, the dual of one of the 59 neighbourly 12-vertex triangulations of the genus-6 surface); whether it exists is open.</p><p><b>Theorem.</b> No polyhedron with 12 faces in which every two faces share an edge has a non-trivial symmetry.</p><p>For every map and every compatible symmetry group, the existence of a symmetric embedded realisation is encoded as a rank-4 oriented-matroid SAT instance. All 36 instances are unsatisfiable; each has a DRAT proof verified by drat-trim, and an independently derived second encoding agrees on every case it completed. The package contains the encoders, two independently written exact embeddedness checkers, the certificate table with the SHA-256 of every CNF, run logs, and a one-command reproduction script. The asymmetric case remains open.</p>",
+  "creators": [
+    {"name": "Moki&Julio"}
+  ],
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "keywords": [
+    "Szilassi polyhedron",
+    "neighbourly polyhedra",
+    "polyhedral embedding",
+    "oriented matroids",
+    "SAT",
+    "DRAT proof",
+    "computer-assisted proof",
+    "discrete geometry"
+  ],
+  "related_identifiers": [
+    {"identifier": "10.3390/sym17040622", "relation": "references", "scheme": "doi"},
+    {"identifier": "10.1006/jcta.1996.0069", "relation": "references", "scheme": "doi"},
+    {"identifier": "arXiv:0801.2582", "relation": "references", "scheme": "arxiv"}
+  ]
+}

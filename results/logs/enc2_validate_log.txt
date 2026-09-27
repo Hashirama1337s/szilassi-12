@@ -1,0 +1,58 @@
+random-gauss-0                     #33  emb=0 enc_ok=0  viol(S/R/P/L)=60/13/230/0  mism=0  4s
+random-sphere-1                    #6   emb=0 enc_ok=0  viol(S/R/P/L)=83/18/300/0  mism=0  12s
+random-gauss-2                     #33  emb=0 enc_ok=0  viol(S/R/P/L)=80/12/264/0  mism=0  13s
+random-sphere-3                    #11  emb=0 enc_ok=0  viol(S/R/P/L)=59/16/236/0  mism=0  20s
+random-gauss-4                     #55  emb=0 enc_ok=0  viol(S/R/P/L)=57/15/194/0  mism=0  24s
+random-sphere-5                    #18  emb=0 enc_ok=0  viol(S/R/P/L)=76/8/286/0  mism=0  29s
+random-gauss-6                     #35  emb=0 enc_ok=0  viol(S/R/P/L)=73/11/300/0  mism=0  33s
+random-sphere-7                    #38  emb=0 enc_ok=0  viol(S/R/P/L)=56/17/202/0  mism=0  38s
+random-gauss-8                     #27  emb=0 enc_ok=0  viol(S/R/P/L)=75/12/262/0  mism=0  42s
+random-sphere-9                    #18  emb=0 enc_ok=0  viol(S/R/P/L)=87/13/298/0  mism=0  44s
+random-gauss-10                    #16  emb=0 enc_ok=0  viol(S/R/P/L)=62/14/252/0  mism=0  48s
+random-sphere-11                   #35  emb=0 enc_ok=0  viol(S/R/P/L)=63/9/234/0  mism=0  53s
+torus7 embedded found: 4
+t7-embedded-0                      t7   emb=1 enc_ok=1  viol(S/R/P/L)=0/0/0/0  mism=0  83s
+t7-nearmiss-0-0(v=5)               t7   emb=0 enc_ok=0  viol(S/R/P/L)=1/0/4/0  mism=0  83s
+t7-nearmiss-0-1(v=5)               t7   emb=0 enc_ok=0  viol(S/R/P/L)=1/0/4/0  mism=0  83s
+t7-embedded-1                      t7   emb=1 enc_ok=1  viol(S/R/P/L)=0/0/0/0  mism=0  83s
+t7-nearmiss-1-0(v=5)               t7   emb=0 enc_ok=0  viol(S/R/P/L)=1/0/4/0  mism=0  83s
+t7-nearmiss-1-1(v=5)               t7   emb=0 enc_ok=0  viol(S/R/P/L)=1/0/4/0  mism=0  83s
+t7-embedded-2                      t7   emb=1 enc_ok=1  viol(S/R/P/L)=0/0/0/0  mism=0  89s
+t7-nearmiss-2-0(v=5)               t7   emb=0 enc_ok=0  viol(S/R/P/L)=1/0/4/0  mism=0  91s
+t7-nearmiss-2-1(v=5)               t7   emb=0 enc_ok=0  viol(S/R/P/L)=1/0/4/0  mism=0  91s
+t7-embedded-3                      t7   emb=1 enc_ok=1  viol(S/R/P/L)=0/0/0/0  mism=0  91s
+t7-nearmiss-3-0(v=5)               t7   emb=0 enc_ok=0  viol(S/R/P/L)=1/0/4/0  mism=0  92s
+t7-nearmiss-3-1(v=5)               t7   emb=0 enc_ok=0  viol(S/R/P/L)=1/0/4/0  mism=0  92s
+t7-random-0                        t7   emb=0 enc_ok=0  viol(S/R/P/L)=9/4/30/0  mism=0  92s
+t7-random-1                        t7   emb=0 enc_ok=0  viol(S/R/P/L)=11/2/26/0  mism=0  92s
+climb12-0(v=113)                   #12  emb=0 enc_ok=0  viol(S/R/P/L)=20/11/82/0  mism=0  105s
+climb12-1(v=112)                   #10  emb=0 enc_ok=0  viol(S/R/P/L)=16/12/84/0  mism=0  126s
+climb12-2(v=93)                    #52  emb=0 enc_ok=0  viol(S/R/P/L)=10/13/70/0  mism=0  142s
+climb12-3(v=80)                    #59  emb=0 enc_ok=0  viol(S/R/P/L)=6/16/58/0  mism=0  155s
+climb12-4(v=104)                   #41  emb=0 enc_ok=0  viol(S/R/P/L)=13/13/78/0  mism=0  173s
+climb12-5(v=103)                   #17  emb=0 enc_ok=0  viol(S/R/P/L)=16/13/74/0  mism=0  192s
+climb12-6(v=83)                    #56  emb=0 enc_ok=0  viol(S/R/P/L)=9/14/60/0  mism=0  211s
+climb12-7(v=141)                   #29  emb=0 enc_ok=0  viol(S/R/P/L)=24/7/110/0  mism=0  223s
+sym-#54-T(v=120)                   #54  emb=0 enc_ok=0  viol(S/R/P/L)=12/12/96/0  mism=0  symOK=1 244s
+sym-#59-D2(v=92)                   #59  emb=0 enc_ok=0  viol(S/R/P/L)=8/20/64/0  mism=0  symOK=1 256s
+sym-#5-S4(v=108)                   #5   emb=0 enc_ok=0  viol(S/R/P/L)=20/8/80/0  mism=0  symOK=1 273s
+sym-#45-C3(v=102)                  #45  emb=0 enc_ok=0  viol(S/R/P/L)=15/15/72/0  mism=0  symOK=1 282s
+sym-#3-D3(v=42)                    #3   emb=0 enc_ok=0  viol(S/R/P/L)=6/12/24/0  mism=0  symOK=1 293s
+sym-#48-D3(v=84)                   #48  emb=0 enc_ok=0  viol(S/R/P/L)=12/12/60/0  mism=0  symOK=1 308s
+near-degenerate-0 t7               t7   emb=0 enc_ok=0  viol(S/R/P/L)=8/1/26/0  mism=0  308s
+near-degenerate-1 #54              #54  emb=0 enc_ok=0  viol(S/R/P/L)=45/12/162/0  mism=0  309s
+near-degenerate-2 #3               #3   emb=0 enc_ok=0  viol(S/R/P/L)=61/10/204/0  mism=0  311s
+near-degenerate-3 t7               t7   emb=0 enc_ok=0  viol(S/R/P/L)=5/2/20/0  mism=0  311s
+near-degenerate-4 #54              #54  emb=0 enc_ok=0  viol(S/R/P/L)=78/15/262/0  mism=0  312s
+near-degenerate-5 #3               #3   emb=0 enc_ok=0  viol(S/R/P/L)=74/16/296/0  mism=0  314s
+near-degenerate-6 t7               t7   emb=0 enc_ok=0  viol(S/R/P/L)=6/2/18/0  mism=0  314s
+near-degenerate-7 #54              #54  emb=0 enc_ok=0  viol(S/R/P/L)=89/18/304/0  mism=0  322s
+configs 48 (degenerate skipped: 0)
+family: compared / violated / mismatches
+  GP        805080        0    0
+  SIMP       17439     1412    0
+  REFL        4806      418    0
+  LOC         4806        0    0
+  PIERCE     34878     5450    0
+overall embedded-vs-clauses mismatches: 0 ; embedded configs: 4
+symmetric substitution consistent on exact symmetric configs: True

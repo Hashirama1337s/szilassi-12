@@ -1,0 +1,3 @@
+Sun Sep 27 13:27:00 2026 #42 C2: UNSAT solve 3778s proof 352 MB drat-trim 4151s VERIFIED cnf dual_42_C2_orbfix.cnf sha256 7baaf927f2086954
+Sun Sep 27 15:47:52 2026 #54 C2: UNSAT solve 4306s proof 416 MB drat-trim 4125s VERIFIED cnf dual_54_C2_orbfix.cnf sha256 2dcdd9b40ffb6180
+DONE

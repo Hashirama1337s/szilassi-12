@@ -1,0 +1,12 @@
+Sun Sep 27 05:41:37 2026 #54 T: UNSAT solve 7s proof 0 MB drat-trim 1s CHECK-FAILED: e checking
+
+c parsing input formula with 21836 variables and 510313 clauses
+
+c finished parsing, read 98 bytes from proof file
+
+c ERROR: no conflict
+
+s NOT VERIFIED
+
+c verification time: 1.283 seconds cnf dual_54_T.cnf sha256 585ac01b652ea780
+DONE

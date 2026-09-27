@@ -1,0 +1,10 @@
+=== Sun Sep 27 04:36:19 2026 600.0s
+
+
+
+#1 Sonly cadical195 vars 3884 clauses 425053 -> True in 89s
+#54 full cadical195 -> TIMEOUT (killed at 900s)
+#1 full cadical195 -> TIMEOUT (killed at 900s)
+#5 full cadical195 -> TIMEOUT (killed at 900s)
+#59 full cadical195 -> TIMEOUT (killed at 900s)
+DONE

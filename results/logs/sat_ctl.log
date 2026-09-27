@@ -1,0 +1,6 @@
+=== Sun Sep 27 04:06:01 2026 dual t7 300.0s x1
+dual   #t7  SAT     vars    1331 clauses    11705 build   0.0s solve      0.0s conflicts 877
+DONE
+=== Sun Sep 27 04:06:02 2026 vertex t7 300.0s x1
+vertex #t7  SAT     vars     288 clauses     2815 build   0.0s solve      0.0s conflicts 76
+DONE

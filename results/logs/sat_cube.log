@@ -1,0 +1,4 @@
+=== Sun Sep 27 04:53:06 2026 4 cmds 3000.0s x4
+#1 m=40 trial 0: UNSAT 0.7s
+#1 m=40 trial 1: UNSAT 0.3s
+#1 m=40 trial 2: UNSAT 0.0s

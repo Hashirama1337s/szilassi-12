@@ -1,0 +1,4 @@
+=== Sun Sep 27 11:36:24 2026 2 cmds 7200.0s x2
+sym #55  extra=orbfix,orient C2    |G|= 2 UNSAT  vars 27656 clauses 518591 build 2.9s solve 313.8s
+sym #55  extra=orbfix,orient,jordan3 C2    |G|= 2 UNSAT  vars 90224 clauses 747479 build 3.9s solve 550.0s
+DONE

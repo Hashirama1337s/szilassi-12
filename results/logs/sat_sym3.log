@@ -1,0 +1,23 @@
+=== Sun Sep 27 06:01:35 2026 21 cmds 10800.0s x8
+sym #20  extra=orbfix C2    |G|= 2 UNSAT  vars 21836 clauses 496019 build 1.7s solve 3577.4s
+sym #6   extra=orbfix C2    |G|= 2 UNSAT  vars 21836 clauses 496019 build 1.7s solve 4456.6s
+sym #5   extra=orbfix C2    |G|= 2 UNSAT  vars 21836 clauses 496019 build 1.5s solve 4772.6s
+sym #37  extra=orbfix C2    |G|= 2 UNSAT  vars 21836 clauses 496019 build 1.7s solve 4971.8s
+sym #36  extra=orbfix C2    |G|= 2 UNSAT  vars 21836 clauses 496019 build 1.6s solve 4983.1s
+sym #18  extra=orbfix C2    |G|= 2 UNSAT  vars 21836 clauses 496019 build 1.6s solve 5244.1s
+sym #23  extra=orbfix C2    |G|= 2 UNSAT  vars 21836 clauses 496019 build 1.7s solve 7522.1s
+sym #40  extra=orbfix C2    |G|= 2 UNSAT  vars 21836 clauses 496019 build 1.8s solve 5591.0s
+sym #42  extra=orbfix C2    |G|= 2 UNSAT  vars 21836 clauses 496019 build 1.7s solve 4449.4s
+sym #3   extra=orbfix C2    |G|= 2 UNSAT  vars 21836 clauses 496019 build 1.5s solve 9389.3s
+sym #43  extra=orbfix C2    |G|= 2 UNSAT  vars 21836 clauses 496019 build 1.7s solve 5087.1s
+sym #48  extra=orbfix C2    |G|= 2 UNSAT  vars 21836 clauses 496019 build 1.6s solve 5484.1s
+sym #54  extra=orbfix C2    |G|= 2 UNSAT  vars 21836 clauses 496019 build 2.0s solve 5252.5s
+sym #55  extra=orbfix C2    |G|= 2 UNSAT  vars 21836 clauses 496019 build 1.7s solve 3165.9s
+sym #41  extra=orbfix C2    |G|= 2 UNSAT  vars 21836 clauses 496019 build 1.7s solve 7099.1s
+sym #57  extra=orbfix C2    |G|= 2 UNSAT  vars 21836 clauses 496019 build 1.7s solve 3526.1s
+sym #59  extra=orbfix C2#2  |G|= 2 UNSAT  vars 21836 clauses 496019 build 1.7s solve 2814.4s
+sym #58  extra=orbfix C2    |G|= 2 UNSAT  vars 21836 clauses 496019 build 1.7s solve 4539.0s
+sym #56  extra=orbfix C2    |G|= 2 UNSAT  vars 21836 clauses 496019 build 2.2s solve 5055.9s
+sym #59  extra=orbfix C2    |G|= 2 UNSAT  vars 21836 clauses 496019 build 1.8s solve 4614.5s
+sym #59  extra=orbfix C2#1  |G|= 2 UNSAT  vars 21836 clauses 496019 build 1.7s solve 4249.2s
+DONE

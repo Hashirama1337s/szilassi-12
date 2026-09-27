@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this result or these tools, please cite them as below."
+title: "Moki&Julio: No symmetric 12-face Szilassi polyhedron - a computer-assisted proof with DRAT certificates"
+authors:
+  - name: "Moki&Julio"
+date-released: 2026-09-27
+version: "1.0"
+repository-code: "https://github.com/Hashirama1337s/szilassi-12"
+license: CC-BY-4.0
+keywords:
+  - Szilassi polyhedron
+  - neighbourly polyhedra
+  - polyhedral embedding
+  - oriented matroids
+  - SAT
+  - DRAT proof
+  - computer-assisted proof
+  - genus 6
+abstract: >-
+  No polyhedron with 12 faces in which every two faces share an edge has a non-trivial symmetry. Such a polyhedron
+  would be the dual of one of the 59 neighbourly 12-vertex triangulations of the genus-6 surface. For every map and
+  every compatible symmetry group, the existence of a symmetric embedded realisation is encoded as a rank-4
+  oriented-matroid SAT instance; all 36 instances are unsatisfiable, each with a DRAT proof checked by drat-trim, and an
+  independently derived second encoding agrees on every case it completed. The asymmetric case remains open; the
+  encoders, both exact embeddedness checkers, the certificate table and a one-command reproduction script are included.

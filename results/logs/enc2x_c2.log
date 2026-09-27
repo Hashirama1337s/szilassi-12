@@ -1,0 +1,4 @@
+#55 C2: chi orbits 365, vars 15310, clauses 258697, trivial contradiction False
+#59 C2: chi orbits 365, vars 15268, clauses 258518, trivial contradiction False
+RESULT #55 C2: TIMEOUT after 14400 s
+RESULT #59 C2: TIMEOUT after 14400 s

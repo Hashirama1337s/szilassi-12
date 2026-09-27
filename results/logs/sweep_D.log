@@ -1,0 +1,7 @@
+=== Sun Sep 27 07:27:03 2026 long 1800.0s ['49', '1', '35', '7', '10']
+#49  long starts   10217 min hard  22 found 0 exact [] near [22, 23, 24, 24, 27]
+#1   long starts   10047 min hard  22 found 0 exact [] near [22, 22, 23, 24, 24]
+#35  long starts   10102 min hard  24 found 0 exact [] near [24, 24, 29, 33, 36]
+#7   long starts   10075 min hard  22 found 0 exact [] near [22, 23, 24, 25, 26]
+#10  long starts   10206 min hard  21 found 0 exact [] near [21, 21, 21, 21, 21]
+DONE
