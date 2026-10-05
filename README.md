@@ -174,3 +174,12 @@ them (`code/write_cnf.py MAP full orient`), for anyone with a cluster or a new i
 - Two staged copies differ from the working files in small ways: `code/symgroup.py` imports torch lazily (the numerical
   search needs it, CNF generation does not), and `code/make_tests.py` writes its answer key to
   `checkerB_tests/expected_checkerA.json`.
+
+## Other work by Moki & Julio
+
+- [moki-julio-wifi-ris-cell](https://github.com/Hashirama1337s/moki-julio-wifi-ris-cell): One 1-bit reconfigurable-intelligent-surface cell covering the 2.4 GHz and 5-7 GHz Wi-Fi bands with one switch state (simulation study, Palace FEM) ([doi:10.5281/zenodo.23165406](https://doi.org/10.5281/zenodo.23165406))
+- [rikitake-chaos](https://github.com/Hashirama1337s/rikitake-chaos): Computer-assisted proof that Rikitake's two-disc dynamo (1958) is chaotic ([doi:10.5281/zenodo.23041182](https://doi.org/10.5281/zenodo.23041182))
+- [moki-julio-circle-packing](https://github.com/Hashirama1337s/moki-julio-circle-packing): 6,071 new best-known packings of equal circles, spheres and hyperspheres, each verified by two independent exact checkers ([doi:10.5281/zenodo.22981305](https://doi.org/10.5281/zenodo.22981305))
+- [kinect-v1-depth-levels](https://github.com/Hashirama1337s/kinect-v1-depth-levels): The Xbox 360 Kinect measured as an instrument: the depth lattice, three noise populations, drift and a capability map
+
+All projects: [github.com/Hashirama1337s](https://github.com/Hashirama1337s)
