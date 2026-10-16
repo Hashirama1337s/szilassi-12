@@ -1,26 +1,42 @@
-﻿cff-version: 1.2.0
-message: "If you use this result or these tools, please cite them as below."
-title: "Moki&Julio: No symmetric 12-face Szilassi polyhedron - a computer-assisted proof with DRAT certificates"
+cff-version: 1.2.0
+message: "If you use these results or tools, please cite them as below."
+title: "Szilassi polyhedra: every seven-hexagon torus without overarching faces has exactly one convex face, and no symmetric 12-face Szilassi polyhedron exists (computer-assisted proofs with DRAT certificates)"
 authors:
-  - name: "Moki&Julio"
-date-released: 2026-09-27
-version: "1.0"
+  - name: "Moki & Julio (AI-assisted)"
+date-released: 2026-10-16
+version: "1.1"
 doi: 10.5281/zenodo.23003257
 repository-code: "https://github.com/Hashirama1337s/szilassi-12"
 license: CC-BY-4.0
 keywords:
   - Szilassi polyhedron
+  - polyhedral torus
+  - hexangulation
+  - convex faces
   - neighbourly polyhedra
-  - polyhedral embedding
   - oriented matroids
   - SAT
   - DRAT proof
   - computer-assisted proof
-  - genus 6
 abstract: >-
-  No polyhedron with 12 faces in which every two faces share an edge has a non-trivial symmetry. Such a polyhedron
-  would be the dual of one of the 59 neighbourly 12-vertex triangulations of the genus-6 surface. For every map and
-  every compatible symmetry group, the existence of a symmetric embedded realisation is encoded as a rank-4
-  oriented-matroid SAT instance; all 36 instances are unsatisfiable, each with a DRAT proof checked by drat-trim, and an
-  independently derived second encoding agrees on every case it completed. The asymmetric case remains open; the
-  encoders, both exact embeddedness checkers, the certificate table and a one-command reproduction script are included.
+  Part A (v1.1): every acoptic polyhedral torus with seven hexagonal faces and no overarching faces has exactly one
+  convex face, so Conjecture 5.7 of Grünbaum and Szilassi (2009), that every hexangulation of the torus has at least
+  six non-convex faces, holds with equality in this case. Two independently written oriented-matroid SAT encodings give
+  UNSAT for "at least two convex faces" and for "no convex face", each with a DRAT proof verified by drat-trim;
+  Szilassi's published coordinates are checked exactly. Part B (v1.0): no polyhedron with 12 faces in which every two
+  faces share an edge has a non-trivial symmetry (36 SAT instances, all UNSAT with verified DRAT proofs).
+references:
+  - type: article
+    authors:
+      - family-names: "Grünbaum"
+        given-names: "Branko"
+      - family-names: "Szilassi"
+        given-names: "Lajos"
+    title: "Geometric realizations of special toroidal complexes"
+    journal: "Contributions to Discrete Mathematics"
+    volume: 4
+    issue: 1
+    start: 21
+    end: 39
+    year: 2009
+    doi: 10.55016/ojs/cdm.v4i1.61986

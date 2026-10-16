@@ -1,0 +1,19 @@
+label,question,role,encoding,result,solve_s,drat_trim,proof_MB,cnf_sha256,proof_sha256
+P1_enc1_m2,at least 2 convex faces,theorem (upper bound),ENC1 orient + reorientation fix,UNSAT,0.46,VERIFIED,0.65,af05f0e2b8922bf9bd41a3dabe0ce315a96436801233a3c00bd1b3fc85797370,4434b686d3a91025f911c324a7aaa8bc598ad3b763778510fb8e00c454e775ad
+P1b_enc2_m2,at least 2 convex faces,theorem (upper bound),ENC2,UNSAT,47.17,VERIFIED,24.83,02cf14c3e6918f0333c29ce1482c2e2c89d4ece139b324b8fdedfa7652ec366d,5407ae97ce24ffb40d240e09319cf658874fdbe6ca87d81054f0009e16a4f63b
+PH_enc1_m2_nofix,at least 2 convex faces,theorem (upper bound),"ENC1 orient, no fix",UNSAT,47.74,VERIFIED,25.21,3ec4fc5bcfe728e51e630e00f5e0e78a7b3b0b60cff62303bf00f5b3a539cfe5,11590296eb173522e0df6a7e96c549bc530d015720561714a416f2e1d385b125
+Q1_enc1_nc7,no convex face,theorem (lower bound),ENC1 orient + reorientation fix,UNSAT,0.36,VERIFIED,0.57,03a899d31abfd03c498c1c38874ece03ca8be74c55d64d745349012e127fd660,1b7e6da66601dacdcd9ce88c1f620a0353413dbd8e2a918a1a80ea3bf8cf8dca
+Q2_enc2_nc7,no convex face,theorem (lower bound),ENC2,UNSAT,51.28,VERIFIED,32.28,208fa9c14ca395c2af0ddd5acd4858a7e81397d89e79ce9f416ec5d918eb9f99,e574257c0985de285b37867774ab02215b808da2772be3ca4d7bf4bc4b363125
+Q3_enc1_nc7_nofix,no convex face,theorem (lower bound),"ENC1 orient, no fix",UNSAT,24.32,VERIFIED,21.38,622d85247aa774a6b11912a9efef789195393dfa92180045811a854546c1f0f7,ae02ebf3a4c6e8eecf3d84534ae580a7bce8566aff3cbb29c50bb5c90e3d36a5
+P2_enc1_m1,at least 1 convex face,consistency,ENC1 orient + reorientation fix,SAT,0.04,,,33211c39d48f702d7280f341c5c0bf6995ddcff9300c21f82a8f8203eac51338,
+C4_enc1_base,no convexity constraint,control: base satisfiable,ENC1 orient + reorientation fix,SAT,0.09,,,8fbaf0dc0565d29e4628b2bf294fe680e2f1f4843e1dbb763d2072abf2b66775,
+C4_enc2_base,no convexity constraint,control: base satisfiable,ENC2,SAT,0.04,,,51aee75a813defeaea6e23a95319cd16d149873c47f29c25fc8b3e0895e835fb,
+C2_enc1_t3_m1,Table 3 signs fixed; at least 1 convex,control: SAT,"ENC1 orient, no fix",SAT,0.03,,,0a0935cf67c53575601c68eaecd95173b46417b75ddfcb5b541a4b83e5e2ddce,
+C2_enc1_t3_m2,Table 3 signs fixed; at least 2 convex,control: UNSAT,"ENC1 orient, no fix",UNSAT,0.03,VERIFIED,0.01,1fb09853936130111d90c1fda619c26f067822f647671825f65a6f7d6c3fc41a,b50f38010cf0e055b4a5aa4f79b329b5056731b057bd1242c3590460a0569272
+C2_enc2_t3_m1,Table 3 signs fixed; at least 1 convex,control: SAT,ENC2,SAT,0.03,,,365fdbb7c2f410a37da1b40b819ed29a035d6a2e4df483adc23897adb9628610,
+C2_enc2_t3_m2,Table 3 signs fixed; at least 2 convex,control: UNSAT,ENC2,UNSAT,0.03,VERIFIED,0.01,bfef536e7591950c5a5c9cb5294ce7ce7a45b8531f1e6d7f571279b882ca1b76,7f92cb3ce87a341f42f1e528dfa03d00c371940dc8a4a8ce5f3c4c0767fc4859
+D1_enc1_t3_nc7,Table 3 signs fixed; no convex face,control: UNSAT,"ENC1 orient, no fix",UNSAT,0.23,VERIFIED,0.01,4d4dc94446e5177eff80d65e703d3c6a5d9008d47d7b1fbcbf98a35880569617,815aff37d147bf1760a6bc384bd43321036a351cce338b7eca4539e4b0ff72ad
+D1_enc2_t3_nc7,Table 3 signs fixed; no convex face,control: UNSAT,ENC2,UNSAT,0.03,VERIFIED,0.01,bfae81d3510c315b57ae27589357fb196e78503963dbc1b0eb15917a756ab736,1a7d145cfd9c73af7adf2a48d21aca3f39f03c430889b3faaec6e7b96f8d37bb
+C3_enc1_badchi,signs of a non-embedded random configuration,negative control: UNSAT,"ENC1 orient, no fix",UNSAT,0.03,VERIFIED,0.0,cbdf395534f08eaa93636cebbe32e1c22edc7932198ce2ed4342c66ffdd5aed1,7a72321cf3d894943fe76ca2edbbe1ff56a6031f581fbb1855d49485c713049d
+C3_enc1_m8,at least 8 convex faces,negative control: UNSAT,ENC1 orient + reorientation fix,UNSAT,0.03,VERIFIED,0.0,e1bb07883578e5bb9887020f52e5d6fcd2a5a160f128d9c6892210cdce7a08ec,85d4cc93c70e908a32a95031fdb412be7542ec2b3fec5fcd31c2d7f168e9391c
+D3_enc1_nc6,six named faces non-convex,control: SAT,ENC1 orient + reorientation fix,SAT,0.16,,,65268973f434d795ec02a6b362fb8ec729bf59f5bc17e2259d9fdb309af29f19,

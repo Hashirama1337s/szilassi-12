@@ -1,6 +1,40 @@
-﻿# No symmetric 12-face Szilassi polyhedron
+# Szilassi polyhedra: two computer-assisted theorems
 
-**A computer-assisted theorem with checkable proof certificates (Moki&Julio, 2026).**
+**Computer-assisted theorems with checkable proof certificates. Moki & Julio (AI-assisted), 2026.**
+
+## In plain words
+
+Szilassi's polyhedron is a ring-shaped solid made of seven flat hexagons, and each hexagon shares an edge with every other one.
+This repository proves two facts about polyhedra of this kind:
+
+- **Part A (v1.1, folder `convex7/`):** every seven-hexagon ring in which every two faces share an edge has exactly
+  one un-dented (convex) face, never two and never none. This settles a 2009 conjecture of Grünbaum and Szilassi for
+  seven-face rings of that kind.
+- **Part B (v1.0):** the next possible "every face touches every other" polyhedron would have twelve faces. It cannot
+  have any symmetry.
+
+Each "impossible" answer comes with a proof file checked by an independent checker program.
+
+## Part A: every seven-hexagon torus without overarching faces has exactly one convex face
+
+> **Theorem.** Let P be an acoptic polyhedral torus, in the sense of Grünbaum and Szilassi (*Contrib. Discrete Math.*
+> 4(1) (2009) 21–39, p. 21), with exactly seven faces, all hexagons, no two of them overarching. Then exactly one
+> face of P is convex.
+
+**What it settles.** Grünbaum and Szilassi conjectured (Conjecture 5.7, p. 33) that every hexangulation of the torus
+has at least six non-convex faces. The theorem confirms this, with equality, for all seven-face hexangulations without
+overarching faces. Seven-face hexangulations *with* overarching faces are not covered.
+
+**How it was proved.**
+
+- Two independently written SAT encodings of embedded realisations, plus convex-face constraints, give UNSAT for "at
+  least two convex faces" and for "no convex face".
+- Each UNSAT answer has a DRAT proof verified by drat-trim.
+- Szilassi's published coordinates pass every check and have exactly one convex face.
+
+Details, controls and a one-command reproduction are in [`convex7/README.md`](convex7/README.md).
+
+## Part B: no symmetric 12-face Szilassi polyhedron
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23003257.svg)](https://doi.org/10.5281/zenodo.23003257) DOI 10.5281/zenodo.23003257 (all versions; v1.0: 10.5281/zenodo.23003258)
 
@@ -168,6 +202,10 @@ them (`code/write_cnf.py MAP full orient`), for anyone with a cluster or a new i
 ## Credits and licence
 
 - Data: the 59 triangulations are from Altshuler, Bokowski and Schuchert (1996), as listed on F. H. Lutz's Manifold Page.
+- Part A uses the coordinates of Szilassi's polyhedron from Grünbaum and Szilassi (2009), Appendix Table 3
+  (doi:10.55016/ojs/cdm.v4i1.61986).
+- v1.1 adds one line to `code/omsat.py`: it exposes the per-corner reflex literals for `convex7/`. The line changes no
+  CNF, and `python reproduce.py hashes` still reproduces all 36 Part B certificates.
 - Tools: CaDiCaL (A. Biere et al.), drat-trim (M. Heule et al.), PySAT.
 - Text and data are under CC BY 4.0 (`LICENSE`); code is under the MIT licence (`LICENSE-CODE`). Please cite via
   `CITATION.cff`.

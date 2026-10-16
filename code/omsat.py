@@ -217,6 +217,7 @@ def dual_constraints(bd, S, INF, extra=()):
                 if bd.forbid(p, q):
                     orient_bad.append(('V', tri))
         extra_viol['O'] = orient_bad
+        bd.Rloc = Rloc                                   # per-corner reflex literals, used by convex7/ (no CNF change)
     if 'jordan3' in extra:
         # A line parallel to L_ij, pushed slightly into the quadrant (si, sj) (sides of P_i, P_j), misses faces i and j
         # and meets face k only near v(i,j,k); a closed embedded surface is crossed an even number of times.
