@@ -7,7 +7,7 @@ checker reads.**
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23003257.svg)](https://doi.org/10.5281/zenodo.23003257)
 
-Moki & Julio (AI-assisted) · 2026 · Part B DOI [10.5281/zenodo.23003257](https://doi.org/10.5281/zenodo.23003257) (all
+Moki & Julio · 2026 · Part B DOI [10.5281/zenodo.23003257](https://doi.org/10.5281/zenodo.23003257) (all
 versions) · text and data CC BY 4.0, code MIT
 
 ## The story in a minute
@@ -161,7 +161,7 @@ orders of magnitude beyond one PC.
 
 # Szilassi polyhedra: two computer-assisted theorems
 
-**Computer-assisted theorems with checkable proof certificates. Moki & Julio (AI-assisted), 2026.**
+**Computer-assisted theorems with checkable proof certificates. Moki & Julio, 2026.**
 
 ## In plain words
 
@@ -382,3 +382,5 @@ them (`code/write_cnf.py MAP full orient`), for anyone with a cluster or a new i
 - [kinect-v1-depth-levels](https://github.com/Hashirama1337s/kinect-v1-depth-levels): The Xbox 360 Kinect measured as an instrument: the depth lattice, three noise populations, drift and a capability map
 
 All projects: [github.com/Hashirama1337s](https://github.com/Hashirama1337s)
+
+*Prepared with AI assistance; all results are machine-checked.*

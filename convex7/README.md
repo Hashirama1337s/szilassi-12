@@ -1,6 +1,6 @@
 # Every seven-hexagon torus without overarching faces has exactly one convex face
 
-**A computer-assisted theorem with checkable proof certificates. Moki & Julio (AI-assisted), 2026.**
+**A computer-assisted theorem with checkable proof certificates. Moki & Julio, 2026.**
 
 ## In plain words
 

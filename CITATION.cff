@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use these results or tools, please cite them as below."
 title: "Szilassi polyhedra: every seven-hexagon torus without overarching faces has exactly one convex face, and no symmetric 12-face Szilassi polyhedron exists (computer-assisted proofs with DRAT certificates)"
 authors:
-  - name: "Moki & Julio (AI-assisted)"
+  - name: "Moki & Julio"
 date-released: 2026-10-16
 version: "1.1"
 doi: 10.5281/zenodo.23003257

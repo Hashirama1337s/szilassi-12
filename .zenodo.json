@@ -5,7 +5,7 @@
   "description": "<p><b>In plain words.</b> Szilassi's polyhedron is a ring-shaped solid made of seven flat hexagons, each sharing an edge with all the others. In 2009 Grünbaum and Szilassi conjectured that every ring-shaped polyhedron built only from hexagons has at least six dented (non-convex) faces. We settle the seven-hexagon case for rings in which every two hexagons share an edge: every such polyhedron has exactly one un-dented face, never two and never none.</p><p><b>Part A (new in v1.1).</b> <b>Theorem.</b> Every acoptic polyhedral torus with exactly seven hexagonal faces and no overarching faces (definitions of Grünbaum and Szilassi 2009) has exactly one convex face. Hence their Conjecture 5.7 holds, with equality, for seven-face hexangulations without overarching faces; seven-face hexangulations with overarching faces are not covered. Proof: such a polyhedron realises Szilassi's map; two independently written rank-4 oriented-matroid SAT encodings of embedded realisations, with convex-face constraints, are unsatisfiable for 'at least two convex faces' and for 'no convex face'; every UNSAT answer has a DRAT proof verified by drat-trim. Szilassi's published coordinates are checked in exact arithmetic (embedded, exactly one convex face). Folder convex7/ reproduces everything with one command.</p><p><b>Part B (v1.0).</b> No polyhedron with 12 faces in which every two faces share an edge has a non-trivial symmetry (36 SAT instances, all UNSAT with verified DRAT proofs; the asymmetric case remains open).</p>",
   "creators": [
     {
-      "name": "Moki & Julio (AI-assisted)"
+      "name": "Moki & Julio"
     }
   ],
   "access_right": "open",
