@@ -1,6 +1,6 @@
 # Szilassi polyhedra: two computer-assisted theorems
 
-**Every ring of seven hexagons in which each face shares an edge with every other has exactly one un-dented face, and the next possible solid of this kind, with twelve faces, cannot have any symmetry: two computer-assisted proofs, each with proof files an independent checker reads.**
+**Every ring of seven hexagons in which each face shares an edge with every other has exactly one un-dented face, and the next possible such solid, with twelve faces, cannot have any symmetry: two computer-assisted proofs with proof files an independent checker reads.**
 
 [![DOI 10.5281/zenodo.23003257](brand/doi.svg)](https://doi.org/10.5281/zenodo.23003257) ![Licence: text and data CC BY 4.0, code MIT](brand/licence.svg) [![Moki & Julio lab map](brand/lab.svg)](https://github.com/Hashirama1337s)
 
