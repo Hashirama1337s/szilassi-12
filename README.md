@@ -24,13 +24,13 @@ one un-dented face: never two, never none.
 Whether it exists has been open since the 1970s. We proved it cannot have any symmetry: no rotation, reflection or
 other distance-preserving motion, apart from doing nothing, maps it onto itself. Whether a lopsided one exists is still open.
 
-A picture that helps: **proving a sudoku has no solution.** You could try every filling, but a written chain of
+![](brand/icon-picture.svg) **The idea in one picture.** **Proving a sudoku has no solution.** You could try every filling, but a written chain of
 deductions ("this square must be 3, so that one cannot be ...") ending in a contradiction is a proof anyone can
 re-check line by line. Here the "squares" are yes/no facts about the shape (which side of each face's plane each corner
 lies on), the "rules" say the faces may not cross each other, a SAT solver does the deducing, and it writes its chain
 to a proof file that a separate small program re-checks.
 
-Where the picture breaks: a sudoku's rules are exact. Here the rules are necessary conditions that every real solid
+**Where the picture breaks.** A sudoku's rules are exact. Here the rules are necessary conditions that every real solid
 must meet, written by us as code, so the proof is only as good as that translation. That is why each translation was
 tested against exact geometry, and for Part A written twice, independently. Extra solutions to the puzzle would be
 harmless (they might not be real shapes); "no solution" is the answer that counts.

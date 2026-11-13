@@ -18,7 +18,10 @@ keywords:
   - SAT
   - DRAT proof
   - computer-assisted proof
+  - polyhedra
 abstract: >-
+  Szilassi's polyhedron is a ring-shaped solid made of seven flat hexagons, each sharing an edge with all the
+  others.
   Part A (v1.1): every acoptic polyhedral torus with seven hexagonal faces and no overarching faces has exactly one
   convex face, so Conjecture 5.7 of Grünbaum and Szilassi (2009), that every hexangulation of the torus has at least
   six non-convex faces, holds with equality in this case. Two independently written oriented-matroid SAT encodings give
