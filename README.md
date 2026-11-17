@@ -1,26 +1,32 @@
 # Szilassi polyhedra: two computer-assisted theorems
 
-**Every ring of seven hexagons in which each face shares an edge with every other has exactly one un-dented face, and the next possible such solid, with twelve faces, cannot have any symmetry: two computer-assisted proofs with proof files an independent checker reads.**
+**Every ring of seven hexagons in which each face shares exactly one edge with every other has exactly one un-dented face, and the next possible such solid, with twelve faces, cannot have any symmetry: two computer-assisted proofs with proof files an independent checker reads.**
 
 [![DOI 10.5281/zenodo.23003257](brand/doi.svg)](https://doi.org/10.5281/zenodo.23003257) ![Licence: text and data CC BY 4.0, code MIT](brand/licence.svg) [![Moki & Julio lab map](brand/lab.svg)](https://github.com/Hashirama1337s)
 
-Moki & Julio · 2026 · version 1.1
+Moki & Julio · 2026 · version 1.1.1
 
 **Read** [TECHNICAL.md](TECHNICAL.md) · **Part A** [convex7/README.md](convex7/README.md) · **Re-run** `python reproduce.py hashes`
 
 ## In plain words
 
 Most solids you know have faces that touch only a few others. A cube's top face never touches its bottom. Only two
-polyhedra are known in which **every** face shares an edge with every other face: the tetrahedron, with 4 triangles,
-and Szilassi's polyhedron (1977), a ring-shaped solid, like a lumpy bagel, made of 7 hexagons.
+polyhedra are known in which **every** face shares exactly one edge with every other face: the tetrahedron, with 4 triangles,
+and Szilassi's polyhedron (1977), a ring-shaped solid, like a lumpy bagel, made of 7 hexagons. (If some pairs of faces
+may share two edges, two eight-faced examples are also known: Mizhaev 2020 and Röst and Vígh 2026.)
+
+![Szilassi's polyhedron in three views: seven coloured hexagonal faces, a see-through hole, and the one un-dented face labelled](figures/szilassi-polyhedron.svg)
+
+*Szilassi's polyhedron, drawn from the published exact coordinates: seven flat hexagons, one colour each. Every two of them share an edge (21 shared edges in all), and the solid is a ring with a hole you can see through. Six faces are dented, with one or two corners pointing inwards; face 7, the small face in the plane z = 4 (seen in the view from below), is the one un-dented face.*
 
 Szilassi's hexagons are mostly dented: they have corners that point inwards. In 2009 Grünbaum and Szilassi conjectured
 that every ring-shaped polyhedron built only from hexagons has at least six dented faces. **Part A** settles the
-seven-hexagon case for rings where each face shares an edge with every other (the technical phrase is "no two faces
-overarching"). The search covers every possible shape of that kind, not just Szilassi's model. Every one has exactly
+seven-hexagon case for rings in which no two faces are "overarching", that is, no two faces meet in more than one
+place. This is a separate condition from each face sharing an edge with every other; for seven hexagons the two pick
+out the same rings (see "Some words" below). The search covers every possible shape of that kind, not just Szilassi's model. Every one has exactly
 one un-dented face: never two, never none.
 
-**Part B** looks one step further. The next possible "every face touches every other" polyhedron would have 12 faces.
+**Part B** looks one step further. The next possible polyhedron in which every face shares exactly one edge with every other would have 12 faces.
 Whether it exists has been open since the 1970s. We proved it cannot have any symmetry: no rotation, reflection or
 other distance-preserving motion, apart from doing nothing, maps it onto itself. Whether a lopsided one exists is still open.
 
@@ -45,7 +51,7 @@ harmless (they might not be real shapes); "no solution" is the answer that count
   overarching faces; those *with* overarching faces are not covered. Two independently written encodings (ENC1
   `code/omsat.py` with `orient`; ENC2 `code/enc2_core.py`) give UNSAT for "≥ 2 convex" and "no convex", every proof
   checked by drat-trim.
-- **Part B (v1.0).** No polyhedron with 12 faces in which every two faces share an edge has a non-trivial symmetry.
+- **Part B (v1.0).** No polyhedron with 12 faces in which every two faces share exactly one edge has a non-trivial symmetry.
   Reduction (via the 59 neighbourly genus-6 triangulations and Aut(map)) to 36 SAT instances in an oriented-matroid
   (chirotope) encoding, all UNSAT with DRAT proofs verified by drat-trim. A second, independently derived encoding
   agrees on every case it completed; its half-turn runs did not finish at a 4-hour cap, so the half-turn cases rest on
@@ -66,6 +72,12 @@ Full technical record: [TECHNICAL.md](TECHNICAL.md).
   exact geometry. For Part B's half-turn cases there is no second encoding.
 - A referee reported, post hoc and without a certificate here, that the Part A upper bound may need fewer conditions,
   so a short hand proof may exist. Not checked.
+- Correction 2026-11-17: "every face shares an edge with every other" means here "exactly one edge". Polyhedra in which
+  some pairs of faces share two edges are not covered; two eight-faced examples of that kind are known (Mizhaev 2020;
+  Röst and Vígh 2026).
+- Correction 2026-11-17: "In plain words" called "no two faces overarching" the technical phrase for "each face shares
+  an edge with every other". They are separate conditions; Part A is stated for the first, and for seven hexagons the
+  two coincide (see "Some words").
 
 ## How it works
 
@@ -94,11 +106,19 @@ solution), each with a proof that drat-trim verifies.
 As a check, Szilassi's published coordinates, in exact fractions: all seven faces are flat, the solid is embedded (no
 faces cross), 8 of its 42 face corners are reflex, and exactly one face, the one in the plane z = 4, is convex.
 
+![The seven faces of Szilassi's polyhedron laid flat at the same scale, with inward corners circled: six faces have one or two, one face has none](figures/szilassi-faces-flat.svg)
+
+*The seven faces laid flat, each in its own plane and all at the same scale. Open circles: corners that point inwards, 8 of the 42. Faces 1 to 6 each have one or two; face 7 has none. Part A proves that every seven-hexagon ring in which each face shares an edge with every other with no two faces "overarching" (a technical condition, see Part A; rings with overarching faces are not covered) has exactly one such un-dented face.*
+
 **Part B in numbers.** A 12-face version would have twelve dented 11-sided faces, 44 corners and 66 edges, on a surface
 with six holes (genus 6). There are exactly 59 possible patterns of how its faces could meet. A symmetry of the solid
 would have to be a symmetry of its pattern, and that reduces the question to 25 cases (21 half-turns and 4 three-fold
 rotations). With the larger groups as extra checks, that makes 36 SAT problems, all UNSAT. The fastest proof (the
 12-element group T on pattern #54) takes 7 seconds; the half-turn cases take 3 to 135 minutes each.
+
+![Dot chart of the 36 symmetric cases of the 12-face question, grouped by symmetry type, with the solver time for each impossibility proof on a log scale](figures/szilassi-symmetry-cases.svg)
+
+*Part B: each dot is one possible symmetry acting on one of the 59 possible 12-face patterns, placed by how long the solver took to prove it impossible (log scale, 7 seconds to about 2 h 15 min). The 25 half-turn and one-third-turn cases settle the theorem; the larger groups are extra checks. All 36 proof files were re-checked by a separate checker: VERIFIED. A 12-face version without any symmetry is still open.*
 
 ## Reproduce and reuse
 
@@ -157,14 +177,47 @@ orders of magnitude beyond one PC.
 - **CNF** - the standard text format for such a set of rules.
 - **Symmetry** - a rotation, reflection or other distance-preserving motion that maps the solid onto itself.
 
+## Open doors
+
+What this work leaves open, and what we noticed along the way but did not follow up, for anyone who wants to take the next step.
+
+- **A lopsided 12-face polyhedron.** Part B rules out every symmetric 12-face polyhedron in which each face shares exactly
+  one edge with every other. Whether one with no symmetry at all exists is still unknown. *Status:* open according to
+  Röst and Vígh 2026 (arXiv:2609.32998, Section 5: "the case of twelve faces, each pair sharing exactly one edge, remains
+  open"). *Start here:* `code/write_cnf.py MAP full orient` writes the instance for any of the 59 face patterns;
+  Section 7 of [TECHNICAL.md](TECHNICAL.md) lists what was tried, which encodings sped up the symmetric cases and which
+  made the solver slower. Our long runs (up to 5 h plus 4 h) resolved none, and a cube-based estimate puts these instances
+  several orders of magnitude beyond one PC. *Ceiling:* either a third known polyhedron in which every two faces share
+  exactly one edge, or a proof that none with 12 faces exists.
+- **The rest of the hexagon-ring conjecture.** Grünbaum and Szilassi conjectured that every ring-shaped polyhedron
+  built only from hexagons has at least six dented faces. Part A settles seven-hexagon rings without overarching faces.
+  Seven-hexagon rings *with* overarching faces, and rings of eight or more hexagons, are not covered. *Status:* open
+  according to Grünbaum and Szilassi (2009), Conjecture 5.7, p. 33. *Start here:* [convex7/README.md](convex7/README.md),
+  `convex7/convex7.py` and the two independent encodings (`code/omsat.py`, `code/enc2_core.py`). *Ceiling:* the
+  conjecture settled in more cases, or a counterexample.
+- **A short hand proof of "at most one un-dented face".** A referee reported, after the fact, that the "at most one
+  convex face" half of Part A stays unsolvable when the edge-piercing and one-dented-corner-per-vertex rules are removed.
+  If so, it needs only that faces do not cross themselves and the sign rules of the seven face planes, and a short
+  pen-and-paper proof may exist. *Status:* UNTESTED observation from this work (reported without a certificate here).
+  *Start here:* `convex7/convex7.py cnf` rebuilds the instances; remove the clause families named above and re-run
+  with a DRAT checker. *Ceiling:* a proof a reader can check by hand for half of Part A.
+- **Which of the 15 sign patterns are real solids?** Without any convexity rule, the main encoding of the seven-hexagon
+  ring has exactly 1,260 solutions, which fall into 15 classes up to relabelling and mirror image. They differ in how
+  the plane at infinity sits among the seven face planes. Whether every one of the 15 is realised by an actual solid
+  is not decided. *Status:* UNTESTED observation from this work. *Start here:* `convex7/om_classes.py` (the count) and
+  the exact embeddedness checker `code/checkerB.py`. *Ceiling:* a complete list of the different ways a seven-hexagon
+  ring of this kind can sit in space, at the level of these sign patterns.
+
 ## How to cite
 
 ```
-Moki & Julio (2026). Szilassi polyhedra: every seven-hexagon torus without overarching faces has exactly one convex face, and no symmetric 12-face Szilassi polyhedron exists (computer-assisted proofs with DRAT certificates). Version 1.1. Zenodo. https://doi.org/10.5281/zenodo.23003257
+Moki & Julio (2026). Szilassi polyhedra: every seven-hexagon torus without overarching faces has exactly one convex face, and no symmetric 12-face Szilassi polyhedron exists (computer-assisted proofs with DRAT certificates). Version 1.1.1. Zenodo. https://doi.org/10.5281/zenodo.23003257
 ```
 
 The DOI always resolves to the newest archived version. Version 1.0 (Part B only) is 10.5281/zenodo.23003258. Machine-readable: [CITATION.cff](CITATION.cff).
 Text and data are under CC BY 4.0 (`LICENSE`); code is under the MIT licence (`LICENSE-CODE`).
+
+Release note - v1.1.1: adds Open doors and figures; corrections dated 2026-11-17; no change to the certified results.
 
 ## Related projects
 

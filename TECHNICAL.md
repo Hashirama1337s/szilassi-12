@@ -10,7 +10,7 @@ This repository proves two facts about polyhedra of this kind:
 - **Part A (v1.1, folder `convex7/`):** every seven-hexagon ring in which every two faces share an edge has exactly
   one un-dented (convex) face, never two and never none. This settles a 2009 conjecture of Grünbaum and Szilassi for
   seven-face rings of that kind.
-- **Part B (v1.0):** the next possible "every face touches every other" polyhedron would have twelve faces. It cannot
+- **Part B (v1.0):** the next possible polyhedron in which every face shares exactly one edge with every other would have twelve faces. It cannot
   have any symmetry.
 
 Each "impossible" answer comes with a proof file checked by an independent checker program.
@@ -38,12 +38,14 @@ Details, controls and a one-command reproduction are in [`convex7/README.md`](co
 
 DOI [10.5281/zenodo.23003257](https://doi.org/10.5281/zenodo.23003257) (all versions; v1.0: 10.5281/zenodo.23003258)
 
-Only two polyhedra are known in which every two faces share an edge: the tetrahedron (4 faces) and Szilassi's
-polyhedron (7 faces, genus 1, 1977). The next possible case has 12 faces. It would be a polyhedron of genus 6 whose
+Only two polyhedra are known in which every two faces share exactly one edge: the tetrahedron (4 faces) and Szilassi's
+polyhedron (7 faces, genus 1, 1977). (If some pairs of faces may share two edges, two eight-faced examples are also
+known: R. Mizhaev, arXiv:2609.17700 (2026; first version OSF Preprints 2020, doi:10.31219/osf.io/hvtey) and G. Röst,
+V. Vígh, arXiv:2609.32998 (2026).) The next possible case has 12 faces. It would be a polyhedron of genus 6 whose
 faces are twelve non-convex 11-gons, with 44 vertices and 66 edges. Whether it exists has been open since the 1970s
 (Wikipedia, "Szilassi polyhedron"; Bokowski and H., *Symmetry* 17 (2025) 622, sec. 8.3).
 
-> **Theorem.** No polyhedron with 12 faces in which every two faces share an edge has a non-trivial symmetry.
+> **Theorem.** No polyhedron with 12 faces in which every two faces share exactly one edge has a non-trivial symmetry.
 > No rotation, rotoreflection or other isometry other than the identity maps such a polyhedron onto itself.
 
 The proof is a reduction to 36 SAT instances, all unsatisfiable. Each instance has a DRAT proof checked by
@@ -152,6 +154,10 @@ Both hold in every embedded realisation. This made the half-turn instances about
 | S4 | #5, #6, #23, #41, #57, #58 | 186-281 s | 46-68 MB |
 | C3 | #3, #45, #48, #54 | 170-255 s | 47-64 MB |
 | C2 (half-turn) | 19 maps, 21 classes | 3-135 min | 42-691 MB |
+
+![Dot chart of the 36 symmetric cases of the 12-face question, grouped by symmetry type, with the solver time for each impossibility proof on a log scale](figures/szilassi-symmetry-cases.svg)
+
+*Part B: each dot is one possible symmetry acting on one of the 59 possible 12-face patterns, placed by how long the solver took to prove it impossible (log scale, 7 seconds to about 2 h 15 min). The 25 half-turn and one-third-turn cases settle the theorem; the larger groups are extra checks. All 36 proof files were re-checked by a separate checker: VERIFIED. A 12-face version without any symmetry is still open.*
 
 ## 5. Reproduce
 

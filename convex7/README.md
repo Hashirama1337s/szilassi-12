@@ -147,6 +147,11 @@ Every control comes out as expected.
   per plane coefficient makes it uniform while keeping it embedded and keeping all 42 reflex bits. On that
   configuration both encodings show no violated condition, and both encodings' reflex bits equal exact geometry at all
   42 corners.
+
+  ![The seven faces of Szilassi's polyhedron laid flat at the same scale, with inward corners circled: six faces have one or two, one face has none](../figures/szilassi-faces-flat.svg)
+
+  *The seven faces laid flat, each in its own plane and all at the same scale. Open circles: corners that point inwards, 8 of the 42. Faces 1 to 6 each have one or two; face 7 has none. Part A proves that every seven-hexagon ring in which each face shares an edge with every other with no two faces "overarching" (a technical condition, see Part A; rings with overarching faces are not covered) has exactly one such un-dented face.*
+
 - **C2 / D1:** with the 70 signs fixed to Szilassi's configuration, "at least 1 convex face" is SAT. "At least 2" and
   "none" are UNSAT, with verified proofs, in both encodings.
 - **C3:** the signs of a random seven-plane configuration that the checker rejects give UNSAT. "At least 8 convex faces"

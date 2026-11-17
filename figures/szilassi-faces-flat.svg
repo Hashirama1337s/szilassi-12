@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="900pt" height="360pt" viewBox="0 0 900 360" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 360 
+L 900 360 
+L 900 0 
+L 0 0 
+L 0 360 
+z
+" style="fill: none"/>
+  </g>
+  <g id="patch_2">
+   <path d="M 15.12 357.84 
+L 884.88 357.84 
+Q 897.84 357.84 897.84 344.88 
+L 897.84 15.12 
+Q 897.84 2.16 884.88 2.16 
+L 15.12 2.16 
+Q 2.16 2.16 2.16 15.12 
+L 2.16 344.88 
+Q 2.16 357.84 15.12 357.84 
+z
+" style="fill: #1c2026; stroke: #2f353d; stroke-width: 1.5; stroke-linejoin: miter"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_3">
+    <path d="M 44.728579 176.868382 
+L 44.728579 257.568093 
+L 79.388311 240.755653 
+L 79.388311 202.087042 
+L 96.718177 229.827568 
+L 114.048044 210.493262 
+z
+" clip-path="url(#p96c0547ba0)" style="fill: #3987e5; stroke: #3987e5; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 12.5px; font-family: 'Segoe UI', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; fill: #e8edf2" transform="translate(60.12793 141.573633)">face 1</text>
+    <text style="font-size: 12.5px; font-family: 'Segoe UI', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; fill: #e8edf2" transform="translate(52.818359 155.1)">1 inward</text>
+   </g>
+   <g id="line2d_1">
+    <defs>
+     <path id="ma8850565ec" d="M 0 5 
+C 1.326016 5 2.597899 4.473168 3.535534 3.535534 
+C 4.473168 2.597899 5 1.326016 5 0 
+C 5 -1.326016 4.473168 -2.597899 3.535534 -3.535534 
+C 2.597899 -4.473168 1.326016 -5 0 -5 
+C -1.326016 -5 -2.597899 -4.473168 -3.535534 -3.535534 
+C -4.473168 -2.597899 -5 -1.326016 -5 0 
+C -5 1.326016 -4.473168 2.597899 -3.535534 3.535534 
+C -2.597899 4.473168 -1.326016 5 0 5 
+z
+" style="stroke: #e8edf2; stroke-width: 2"/>
+    </defs>
+    <g clip-path="url(#p96c0547ba0)">
+     <use xlink:href="#ma8850565ec" x="79.388311" y="202.087042" style="fill: #1c2026; stroke: #e8edf2; stroke-width: 2"/>
+    </g>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_4">
+    <path d="M 198.398963 164.462488 
+L 215.211403 239.650004 
+L 240.766312 254.687508 
+L 156.031615 254.687508 
+L 198.398963 202.056246 
+L 189.992743 202.056246 
+z
+" clip-path="url(#p9c600e3c6e)" style="fill: #d95926; stroke: #d95926; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 12.5px; font-family: 'Segoe UI', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; fill: #e8edf2" transform="translate(183.42793 141.573633)">face 2</text>
+    <text style="font-size: 12.5px; font-family: 'Segoe UI', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; fill: #e8edf2" transform="translate(176.118359 155.1)">2 inward</text>
+   </g>
+   <g id="line2d_2">
+    <g clip-path="url(#p9c600e3c6e)">
+     <use xlink:href="#ma8850565ec" x="215.211403" y="239.650004" style="fill: #1c2026; stroke: #e8edf2; stroke-width: 2"/>
+    </g>
+   </g>
+   <g id="line2d_3">
+    <g clip-path="url(#p9c600e3c6e)">
+     <use xlink:href="#ma8850565ec" x="198.398963" y="202.056246" style="fill: #1c2026; stroke: #e8edf2; stroke-width: 2"/>
+    </g>
+   </g>
+  </g>
+  <g id="axes_3">
+   <g id="patch_5">
+    <path d="M 279.223576 225.757931 
+L 307.836086 233.536371 
+L 321.028329 211.173357 
+L 341.549597 240.342505 
+L 347.901418 208.256443 
+L 341.060995 198.533393 
+z
+" clip-path="url(#p451910f9f8)" style="fill: #199e70; stroke: #199e70; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 12.5px; font-family: 'Segoe UI', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; fill: #e8edf2" transform="translate(306.72793 141.573633)">face 3</text>
+    <text style="font-size: 12.5px; font-family: 'Segoe UI', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; fill: #e8edf2" transform="translate(299.418359 155.1)">1 inward</text>
+   </g>
+   <g id="line2d_4">
+    <g clip-path="url(#p451910f9f8)">
+     <use xlink:href="#ma8850565ec" x="321.028329" y="211.173357" style="fill: #1c2026; stroke: #e8edf2; stroke-width: 2"/>
+    </g>
+   </g>
+  </g>
+  <g id="axes_4">
+   <g id="patch_6">
+    <path d="M 490.276424 213.442069 
+L 461.663914 205.663629 
+L 448.471671 228.026643 
+L 427.950403 198.857495 
+L 421.598582 230.943557 
+L 428.439005 240.666607 
+z
+" clip-path="url(#p54f30e4491)" style="fill: #c98500; stroke: #c98500; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 12.5px; font-family: 'Segoe UI', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; fill: #e8edf2" transform="translate(430.02793 141.573633)">face 4</text>
+    <text style="font-size: 12.5px; font-family: 'Segoe UI', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; fill: #e8edf2" transform="translate(422.718359 155.1)">1 inward</text>
+   </g>
+   <g id="line2d_5">
+    <g clip-path="url(#p54f30e4491)">
+     <use xlink:href="#ma8850565ec" x="448.471671" y="228.026643" style="fill: #1c2026; stroke: #e8edf2; stroke-width: 2"/>
+    </g>
+   </g>
+  </g>
+  <g id="axes_5">
+   <g id="patch_7">
+    <path d="M 571.101037 274.737512 
+L 554.288597 199.549996 
+L 528.733688 184.512492 
+L 613.468385 184.512492 
+L 571.101037 237.143754 
+L 579.507257 237.143754 
+z
+" clip-path="url(#p4cd2915166)" style="fill: #d55181; stroke: #d55181; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 12.5px; font-family: 'Segoe UI', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; fill: #e8edf2" transform="translate(553.32793 141.573633)">face 5</text>
+    <text style="font-size: 12.5px; font-family: 'Segoe UI', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; fill: #e8edf2" transform="translate(546.018359 155.1)">2 inward</text>
+   </g>
+   <g id="line2d_6">
+    <g clip-path="url(#p4cd2915166)">
+     <use xlink:href="#ma8850565ec" x="554.288597" y="199.549996" style="fill: #1c2026; stroke: #e8edf2; stroke-width: 2"/>
+    </g>
+   </g>
+   <g id="line2d_7">
+    <g clip-path="url(#p4cd2915166)">
+     <use xlink:href="#ma8850565ec" x="571.101037" y="237.143754" style="fill: #1c2026; stroke: #e8edf2; stroke-width: 2"/>
+    </g>
+   </g>
+  </g>
+  <g id="axes_6">
+   <g id="patch_8">
+    <path d="M 695.888311 198.444347 
+L 695.888311 237.112958 
+L 713.218177 209.372432 
+L 730.548044 228.706738 
+L 661.228579 262.331618 
+L 661.228579 181.631907 
+z
+" clip-path="url(#p360bb6151c)" style="fill: #0ca30c; stroke: #0ca30c; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 12.5px; font-family: 'Segoe UI', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; fill: #e8edf2" transform="translate(676.62793 141.573633)">face 6</text>
+    <text style="font-size: 12.5px; font-family: 'Segoe UI', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; fill: #e8edf2" transform="translate(669.318359 155.1)">1 inward</text>
+   </g>
+   <g id="line2d_8">
+    <g clip-path="url(#p360bb6151c)">
+     <use xlink:href="#ma8850565ec" x="695.888311" y="237.112958" style="fill: #1c2026; stroke: #e8edf2; stroke-width: 2"/>
+    </g>
+   </g>
+  </g>
+  <g id="axes_7">
+   <g id="patch_9">
+    <path d="M 824.70622 234.731196 
+L 824.70622 196.062584 
+L 816.3 196.062584 
+L 807.89378 204.468804 
+L 807.89378 243.137416 
+L 816.3 243.137416 
+z
+" clip-path="url(#pb1f9b85a65)" style="fill: #9085e9; stroke: #e8edf2; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 12.5px; font-family: 'Segoe UI', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; fill: #e8edf2" transform="translate(798.840039 141.573633)">face 7</text>
+    <text style="font-weight: 700; font-size: 12.5px; font-family: 'Segoe UI', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; fill: #e8edf2" transform="translate(785.516797 155.1)">un-dented</text>
+   </g>
+  </g>
+  <g id="text_8">
+   <text style="font-weight: 700; font-size: 17px; font-family: 'Segoe UI', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #e8edf2" x="27" y="32.4" transform="rotate(-0 27 32.4)">Six dented faces and exactly one un-dented face</text>
+  </g>
+  <g id="text_9">
+   <text style="font-size: 13px; font-family: 'Segoe UI', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #9aa4ae" x="27" y="55.8" transform="rotate(-0 27 55.8)">The seven hexagons laid flat, all at the same scale. Open circles: corners that point inwards (8 of 42).</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p96c0547ba0">
+   <rect x="18" y="161.1" width="117" height="117"/>
+  </clipPath>
+  <clipPath id="p9c600e3c6e">
+   <rect x="141.3" y="161.1" width="117" height="117"/>
+  </clipPath>
+  <clipPath id="p451910f9f8">
+   <rect x="264.6" y="161.1" width="117" height="117"/>
+  </clipPath>
+  <clipPath id="p54f30e4491">
+   <rect x="387.9" y="161.1" width="117" height="117"/>
+  </clipPath>
+  <clipPath id="p4cd2915166">
+   <rect x="511.2" y="161.1" width="117" height="117"/>
+  </clipPath>
+  <clipPath id="p360bb6151c">
+   <rect x="634.5" y="161.1" width="117" height="117"/>
+  </clipPath>
+  <clipPath id="pb1f9b85a65">
+   <rect x="757.8" y="161.1" width="117" height="117"/>
+  </clipPath>
+ </defs>
+</svg>

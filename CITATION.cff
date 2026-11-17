@@ -4,7 +4,7 @@ title: "Szilassi polyhedra: every seven-hexagon torus without overarching faces 
 authors:
   - name: "Moki & Julio"
 date-released: 2026-10-16
-version: "1.1"
+version: "1.1.1"
 doi: 10.5281/zenodo.23003257
 repository-code: "https://github.com/Hashirama1337s/szilassi-12"
 license: CC-BY-4.0
@@ -27,7 +27,7 @@ abstract: >-
   six non-convex faces, holds with equality in this case. Two independently written oriented-matroid SAT encodings give
   UNSAT for "at least two convex faces" and for "no convex face", each with a DRAT proof verified by drat-trim;
   Szilassi's published coordinates are checked exactly. Part B (v1.0): no polyhedron with 12 faces in which every two
-  faces share an edge has a non-trivial symmetry (36 SAT instances, all UNSAT with verified DRAT proofs).
+  faces share exactly one edge has a non-trivial symmetry (36 SAT instances, all UNSAT with verified DRAT proofs).
 references:
   - type: article
     authors:
